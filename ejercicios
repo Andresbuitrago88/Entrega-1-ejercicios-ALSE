@@ -1,0 +1,17 @@
+touch par_positivo.cpp suma_arreglo.cpp mcd.cpp
+#include <iostream>
+
+int main() {
+    int numero;
+    std::cout << "Ingrese un número: ";
+    std::cin >> numero;
+    
+    if ((numero % 2 == 0) && (numero > 0)) {
+        std::cout << "El número " << numero << " es par y positivo.\n";
+    } else {
+        std::cout << "El número " << numero << " no cumple con ambas condiciones.\n";
+    }
+    
+    return 0;
+}
+
